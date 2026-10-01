@@ -1,6 +1,7 @@
 import { BrowserRouter, NavLink, Navigate, Route, Routes } from 'react-router-dom'
 import { Badge, Button } from 'antd'
 import { useShipmentStore } from './store/useShipmentStore'
+import { PendingWriteBanner } from './components/VersionOps'
 import { ShipmentList } from './views/ShipmentList'
 import { ShipmentDetail } from './views/ShipmentDetail'
 import { DeviationWorkbench } from './views/DeviationWorkbench'
@@ -18,6 +19,7 @@ function Shell() {
       <div className="operation-note"><span>当前授权</span><strong>放行人员 / 质量复核</strong><small>原始温度点只读</small></div>
     </aside>
     <main>
+      <PendingWriteBanner />
       <Routes>
         <Route path="/" element={<ShipmentList />} />
         <Route path="/shipments/:id" element={<ShipmentDetail />} />
