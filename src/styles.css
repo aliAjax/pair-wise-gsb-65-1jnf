@@ -36,3 +36,18 @@ main { grid-column: 2; min-width: 0; position: relative; }
 .deviation-nav button > div { display: flex; gap: 8px; align-items: center; }.deviation-nav span, .deviation-nav small { color: #7d898c; font-size: 11px; }
 .deviation-main { background: white; border: 1px solid #d9e1e3; padding: 18px; }.two-column { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; }.raw-points { background: #f4f8f8; padding: 14px; }.raw-points p { color: #6d7b7e; }.raw-points code { color: #174d60; line-height: 1.8; }
 .reset { position: fixed; right: 20px; bottom: 15px; }.empty { padding: 80px; text-align: center; color: #718085; }
+.muted { color: #8c989a; }
+.conflict-alert { margin-bottom: 12px; }
+.conflict-actions { margin-top: 8px; }
+.version-cell { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.sig-history { margin-top: 2px; display: grid; gap: 4px; }
+.sig-history-item { display: flex; gap: 6px; align-items: flex-start; line-height: 1.7; }
+.ledger { padding-top: 14px; }
+.ledger-item p { margin: 6px 0; font-size: 13px; }
+.ledger-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.ledger-head span { margin-left: auto; color: #8c989a; font-size: 11px; }
+.ledger-reason { display: block; margin-top: 4px; color: #b04a86; }
+.recovered-box { margin-top: 6px; padding: 6px 10px; background: #fdf1f0; border-left: 3px solid #cf4d44; color: #8a3b35; }
+.ref-evidence { margin: -6px 0 12px; display: flex; gap: 6px; flex-wrap: wrap; }
+.audit-ledger { background: white; border: 1px solid #dae2e4; padding: 8px 18px 4px; margin-bottom: 14px; max-height: 340px; overflow: auto; }
+.audit-ledger-head { display: flex; justify-content: space-between; align-items: center; padding: 10px 0 0; border-bottom: 1px solid #e6ebec; }
